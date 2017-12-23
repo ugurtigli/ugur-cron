@@ -1,0 +1,2 @@
+# Sample cron job for replicating local files using Minio mc
+*/30 * * * * /usr/local/bin/mc mirror /Users/ugurtigli/Google\ Drive/uStorageMarket/ uAzureMain/stormkt
